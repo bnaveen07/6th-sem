@@ -1,0 +1,31 @@
+{
+  "name": "6th-sem",
+  "version": "1.0.0",
+  "description": "A place to access PDFs 6th Sem ECE,DSCE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass scss/style.scss  scss/style.css -w",
+    "start": "node-sass scss/style.scss  scss/style.css -w",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnaveen07/6th-sem.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "ECE"
+  ],
+  "author": "https://github.com/bnaveen07",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bnaveen07/6th-sem/issues"
+  },
+  "homepage": "https://github.com/bnaveen07/6th-sem#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
