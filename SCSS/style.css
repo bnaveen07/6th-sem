@@ -48,13 +48,14 @@ html {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 0 20px;
   height: 60px;
   background: var(--primary);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 100; }
 
 .container {
   width: 1152px;
@@ -130,13 +131,9 @@ nav {
   height: 2px;
   margin-bottom: 8px; }
 
-.mobile .transparent-bg {
-  background: transparent;
-  backdrop-filter: blur(10px); }
-
 .mobile ul.nav-list {
-  background: -webkit-linear-gradient(45deg, #1d8a99, #000000);
-  background: linear-gradient(45deg, #1d8a99, #000000);
+  background: -webkit-linear-gradient(45deg, #434343, #000000);
+  background: linear-gradient(45deg, #434343, #000000);
   position: fixed;
   left: 0;
   top: 0;
