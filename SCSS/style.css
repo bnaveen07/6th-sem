@@ -36,6 +36,26 @@
   --text-color-dark: #45364b;
   --secondary: #1d8a99; }
 
+body::after {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#f00, #f0f);
+  clip-path: circle(20% at right 90%); }
+
+body::before {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: circle(15% at 25% 35%);
+  background: linear-gradient(#2196f3, #796a6f); }
+
 body {
   font-family: "Lato", sans-serif;
   background: var(--dark);
@@ -169,29 +189,55 @@ nav {
 .card {
   width: 30rem;
   height: 40rem;
-  background-color: #45364b;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border: 1px solid;
+  border-image: linear-gradient(to right, #1d8a99, #dd2476, #1c64ff) 1;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   display: flex;
+  padding: 1.5rem;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 3rem 1rem;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out; }
+  -o-transition: all 0.2s ease-in-out;
+  z-index: 1; }
   .card:hover {
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0.5rem 0.5rem 15px rgba(160, 160, 160, 0.15);
     transform: scale(1.04);
     -webkit-transform: scale(1.04);
     -moz-transform: scale(1.04);
     -ms-transform: scale(1.04);
     -o-transform: scale(1.04); }
 
+.card::selection {
+  background-color: var(--primary);
+  color: var(--dark); }
+
+.card .card-header {
+  font-size: 1.8rem;
+  color: #fbfff1;
+  text-align: center;
+  margin-bottom: 1rem; }
+
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+  width: 100%;
+  height: 100%; }
+
 .btn {
-  background: var(--primary);
+  background: var(--secondary);
   color: var(--pure);
   outline: none;
   padding: 8px 20px;
@@ -199,11 +245,18 @@ nav {
   cursor: pointer;
   letter-spacing: 1px;
   border: 1px solid transparent;
-  transition: all 0.5s ease-in-out; }
+  transition: all 0.5s ease-in-out;
+  text-decoration: none; }
+
+.btn a {
+  color: var(--pure);
+  text-decoration: none; }
 
 .btn:hover {
+  border-image: linear-gradient(to right, #1c64ff, #ffff, #1d8a99) 1;
   background: transparent;
-  border-color: var(--pure); }
+  border-color: var(--pure);
+  color: #fff; }
 
 .body {
   font-family: "Lato", sans-serif;

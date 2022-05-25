@@ -1,0 +1,56 @@
+{
+  "1": {
+    "name": "Computer Communications Network",
+    "mod1": "Data Communication",
+    "mod2": "Data Link Layer",
+    "mod3": "Network Layer",
+    "mod4": "Transport Layer",
+    "mod5": "Transport Layer",
+    "link": "./Subjects/CCN/index.html"
+  },
+  "0": {
+    "name": "Engineering Economics",
+    "mod1": "Introduction to EE & Time value of Money",
+    "mod2": "Present Worth Comparison",
+    "mod3": "Equivalent Annual Worth Comparison & Rate of Return",
+    "mod4": "Depreciation",
+    "mod5": "Replacement Analysis",
+    "link": "./Subjects/EE/index.html"
+  },
+  "2": {
+    "name": "Embedded and IoT",
+    "mod1": "Introduction & Processor Architecture",
+    "mod2": "Memory Hierarchy, Bus, Cache, Interfacing, Pheripherals and Interfacing",
+    "mod3": "Communication Protocols",
+    "mod4": "Introduction to the IOT",
+    "mod5": "IoT Hardware",
+    "link": "./Subjects/Eai/index.html"
+  },
+  "3": {
+    "name": "VLSI",
+    "mod1": "Introduction to VLSI",
+    "mod2": "Circuit Design Processes & CMOS Sub System Desigh",
+    "mod3": "CMOS Logic Circuit Design",
+    "mod4": "Advanced CMOS Logic Structures",
+    "mod5": "MOS Amplifier, Differential Amplifier & Current Mirrors",
+    "link": "./Subjects/VLSI/index.html"
+  },
+  "4": {
+    "name": "Programming in Python",
+    "mod1": "Introduction to Python Programming, Flow Statements & Strings",
+    "mod2": "Object Oriented Programming",
+    "mod3": "Lists, Dictionary, Tuples, Sets, Functions",
+    "mod4": "Arrays & Linked Structures",
+    "mod5": "Files & Regular Expressions",
+    "link": "./Subjects/PP/index.html"
+  },
+  "5": {
+    "name": "Data Structures in C",
+    "mod1": "Introduction to DSC",
+    "mod2": "Digital Signal Processing",
+    "mod3": "Digital Signal Processing",
+    "mod4": "Digital Signal Processing",
+    "mod5": "Digital Signal Processing",
+    "link": "./Subjects/DSC/index.html"
+  }
+}

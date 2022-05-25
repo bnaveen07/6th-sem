@@ -1,5 +1,5 @@
 .btn {
-  background: var(--primary);
+  background: var(--secondary);
   color: var(--pure);
   outline: none;
   padding: 8px 20px;
@@ -8,9 +8,18 @@
   letter-spacing: 1px;
   border: 1px solid transparent;
   transition: all 0.5s ease-in-out;
+  text-decoration: none;
+}
+
+.btn a {
+  color: var(--pure);
+  text-decoration: none;
 }
 
 .btn:hover {
+  border-image: linear-gradient(to right, #1c64ff, #ffff, #1d8a99) 1;
+
   background: transparent;
   border-color: var(--pure);
+  color: #fff;
 }

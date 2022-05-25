@@ -1,25 +1,54 @@
 .card {
   width: 30rem;
   height: 40rem;
-  background-color: #45364b;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border: 1px solid;
+  border-image: linear-gradient(to right, #1d8a99, #dd2476, #1c64ff) 1;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   display: flex;
+  padding: 1.5rem;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 3rem 1rem;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
+  z-index: 1;
   &:hover {
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0.5rem 0.5rem 15px rgba(160, 160, 160, 0.15);
     transform: scale(1.04);
     -webkit-transform: scale(1.04);
     -moz-transform: scale(1.04);
     -ms-transform: scale(1.04);
     -o-transform: scale(1.04);
   }
+}
+
+.card::selection {
+  background-color: var(--primary);
+  color: (var(--dark));
+}
+
+.card .card-header {
+  font-size: 1.8rem;
+  color: #fbfff1;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+  width: 100%;
+  height: 100%;
 }
