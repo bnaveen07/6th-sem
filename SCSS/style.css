@@ -132,8 +132,8 @@ nav {
   margin-bottom: 8px; }
 
 .mobile ul.nav-list {
-  background: -webkit-linear-gradient(45deg, #434343, #000000);
-  background: linear-gradient(45deg, #434343, #000000);
+  background: -webkit-linear-gradient(45deg, var(--secondary), #000000);
+  background: linear-gradient(45deg, var(--secondary), #000000);
   position: fixed;
   left: 0;
   top: 0;
