@@ -51,7 +51,8 @@ nav {
   align-items: flex-start;
   padding: 0 20px;
   height: 60px;
-  background: var(--primary);
+  background: #00000000;
+  backdrop-filter: blur(10px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   position: fixed;
   width: 100%;
