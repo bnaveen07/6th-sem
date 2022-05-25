@@ -1,0 +1,47 @@
+{
+  "0": {
+    "name": "Data Communication",
+    "links": {
+      "1": "./html/Module 1 1st.html",
+      "2": "./html/Module 1 2nd.html",
+      "3": "./html/Module 1 PPT.html",
+      "4": "./html/Module 1 & 2.html"
+    }
+  },
+  "1": {
+    "name": "Data Link Layer",
+    "links": {
+      "1": "./html/Module 1 1st.html",
+      "2": "./html/Module 2 2nd.html",
+      "3": "./html/Module 2 PPT.html"
+    }
+  },
+  "2": {
+    "name": "Network Layer",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "3": {
+    "name": "Transport Layer",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "4": {
+    "name": "Transport Layer",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "5": {
+    "name": "Text Book & Lab Manual",
+
+    "links": {
+      "1": "Lab Manual.html"
+    }
+  }
+}

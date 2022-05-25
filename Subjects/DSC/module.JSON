@@ -1,0 +1,45 @@
+{
+  "0": {
+    "name": "Introduction to C",
+    "links": {
+      "1": "./html/Module 1.html",
+      "2": "./pdf/Module 1.html",
+      "3": "./pdf/Module 1 Patterns.html",
+      "4": "./pdf/Module1 Strings.html"
+    }
+  },
+  "1": {
+    "name": "Module 2",
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "2": {
+    "name": "Module 3",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "3": {
+    "name": "Module 4",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "4": {
+    "name": "Module 5",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "5": {
+    "name": "Text Book & Lab Manual",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "0": {
+    "name": "Introduction to VLSI",
+    "links": {
+      "1": "./html/Module 1.html",
+      "2": "./html/Module 1 PPT.html"
+    }
+  },
+  "1": {
+    "name": "Circuit Design Processes & CMOS Sub System Design",
+    "links": {
+      "1": "./html/Module 2 PPT-1.html",
+      "2": "./html/Steps for CMOS.html"
+    }
+  },
+  "2": {
+    "name": "CMOS Logic Circuit Design",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "3": {
+    "name": "Advanced CMOS Logic Structures",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "4": {
+    "name": "MOS Amplifier, Differential Amplifier & Current Mirrors",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "5": {
+    "name": "Text Book & Lab Manual",
+
+    "links": {
+      "1": "./html/Lab Manual.html"
+    }
+  }
+}

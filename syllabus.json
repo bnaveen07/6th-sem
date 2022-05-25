@@ -29,7 +29,7 @@
   "3": {
     "name": "VLSI",
     "mod1": "Introduction to VLSI",
-    "mod2": "Circuit Design Processes & CMOS Sub System Desigh",
+    "mod2": "Circuit Design Processes & CMOS Sub System Design",
     "mod3": "CMOS Logic Circuit Design",
     "mod4": "Advanced CMOS Logic Structures",
     "mod5": "MOS Amplifier, Differential Amplifier & Current Mirrors",
@@ -47,10 +47,10 @@
   "5": {
     "name": "Data Structures in C",
     "mod1": "Introduction to DSC",
-    "mod2": "Digital Signal Processing",
-    "mod3": "Digital Signal Processing",
-    "mod4": "Digital Signal Processing",
-    "mod5": "Digital Signal Processing",
+    "mod2": "Stacks Queues & Linked Lists",
+    "mod3": "Trees & Graphs",
+    "mod4": "Heaps & Sorting",
+    "mod5": "Binary Search Trees",
     "link": "./Subjects/DSC/index.html"
   }
 }

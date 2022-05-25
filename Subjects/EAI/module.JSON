@@ -1,0 +1,43 @@
+{
+  "0": {
+    "name": "Introduction & Processor Architecture",
+    "links": {
+      "1": "./html/Module 1.html",
+      "2": "./html/Module1.html"
+    }
+  },
+  "1": {
+    "name": "Memory Hierarchy, Bus, Cache, Interfacing, Pheripherals and Interfacing",
+    "links": {
+      "1": "./html/Module 2.html"
+    }
+  },
+  "2": {
+    "name": "Communication Protocols",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "3": {
+    "name": "Introduction to the IOT",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "4": {
+    "name": "IoT Hardware",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "5": {
+    "name": "Text Book & Lab Manual",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  }
+}

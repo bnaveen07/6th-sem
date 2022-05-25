@@ -1,0 +1,46 @@
+{
+  "0": {
+    "name": "Introduction to EE & Time value of Money",
+    "links": {
+      "1": "./html/Module 1.html",
+      "2": "./html/Module 1 PPT-1.html",
+      "3": "./html/Module 1 PPT-2.html"
+    }
+  },
+  "1": {
+    "name": "Present Worth Comparison",
+    "links": {
+      "1": "./html/Module 2 PPT-1.html",
+      "2": "./html/Module 2 PPT-2.html"
+    }
+  },
+  "2": {
+    "name": "Equivalent Annual Worth Comparison & Rate of Return",
+
+    "links": {
+      "1": "./html/Module 3.html",
+      "2": "./html/Module 3 ERR.html"
+    }
+  },
+  "3": {
+    "name": "Depreciation",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "4": {
+    "name": "Replacement Analysis",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  },
+  "5": {
+    "name": "Text Book & Lab Manual",
+
+    "links": {
+      "1": "Check Back Later"
+    }
+  }
+}
