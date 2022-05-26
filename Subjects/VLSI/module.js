@@ -50,19 +50,17 @@ hamburger.addEventListener('click', function () {
 
 var card = document.querySelectorAll('.card')
 var http = new XMLHttpRequest()
-http.open('GET', 'module.json', true);
+http.open('GET', './module.JSON', true);
 http.send()
 http.onload = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    var data = JSON.parse(this.responseText)
-    let i = 0;
-    Object.keys(data, i).map(function (key) {
-      addCard(data[i])
-      i++;
-    })
-    console.log(data.length)
-    // card.forEach(addCard(data))
-  }
+  var data = JSON.parse(this.responseText)
+  let i = 0;
+  Object.keys(data, i).map(function (key) {
+    addCard(data[i])
+    i++;
+  })
+  console.log(data.length)
+  // card.forEach(addCard(data))
 }
 
 

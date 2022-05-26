@@ -53,16 +53,15 @@ var http = new XMLHttpRequest()
 http.open('GET', 'module.json', true);
 http.send()
 http.onload = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    var data = JSON.parse(this.responseText)
-    let i = 0;
-    Object.keys(data, i).map(function (key) {
-      addCard(data[i])
-      i++;
-    })
-    console.log(data.length)
-    // card.forEach(addCard(data))
-  }
+  var data = JSON.parse(this.responseText)
+  let i = 0;
+  Object.keys(data, i).map(function (key) {
+    addCard(data[i])
+    i++;
+  })
+  console.log(data.length)
+  // card.forEach(addCard(data))
+
 }
 
 
@@ -79,7 +78,6 @@ function addCard(data) {
 
   }
 
-
   card.innerHTML = `
   <div class="card-header">
     <h3>${data.name}</h3>
@@ -90,11 +88,9 @@ function addCard(data) {
   </div>
   `
   document.querySelector('.body').appendChild(card)
-  // document.querySelector('.card').appendChild(links)
 }
 
 function addLink(value) {
-
   var link = document.createElement('a')
   link.classList.add('btn')
   link.href = value
@@ -104,5 +100,4 @@ function addLink(value) {
   return `
  <a href="${value}" class="btn-link" target="blank"> ${linkName}</a>
  `
-
 }
