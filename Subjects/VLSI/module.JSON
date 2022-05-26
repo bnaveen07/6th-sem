@@ -10,14 +10,15 @@
     "name": "Circuit Design Processes & CMOS Sub System Design",
     "links": {
       "1": "./html/Module 2 PPT-1.html",
-      "2": "./html/Steps for CMOS.html"
+      "2": "./html/Steps for CMOS.html",
+      "3": "./html/Module 2 - 2.html"
     }
   },
   "2": {
     "name": "CMOS Logic Circuit Design",
 
     "links": {
-      "1": "Check Back Later"
+      "1": "./html/Module 3 - 1.html"
     }
   },
   "3": {
