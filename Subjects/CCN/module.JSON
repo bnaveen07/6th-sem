@@ -42,8 +42,8 @@
     "name": "Text Book & Lab Manual",
 
     "links": {
-      "1": "Lab Manual.html",
-      "2": "Complete - 1.html"
+      "1": "./html/Lab Manual.html",
+      "2": "./html/Complete - 1.html"
     }
   }
 }
