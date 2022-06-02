@@ -3,7 +3,7 @@
     "name": "Introduction to Python Programming, Flow Statements & Strings",
     "links": {
       "1": "./html/Module1.html",
-      "2": "./html/Module 1 Functions.html",
+      "2": "./pdf/Module 1 Functions.html",
       "3": "./html/Text Book.html"
     }
   },
@@ -11,7 +11,8 @@
     "name": "Object Oriented Programming",
     "links": {
       "1": "./html/Module 2.html",
-      "2": "./html/Module 2 Programs.html"
+      "2": "./pdf/Module 2 Programs.html",
+      "3": "https://realpython.com/python3-object-oriented-programming/"
     }
   },
   "2": {
@@ -19,7 +20,8 @@
 
     "links": {
       "1": "./html/Module 4.html",
-      "2": "./html/Module 4 Programs.html"
+      "2": "./pdf/Module 4 Programs.html",
+      "3": "https://www.programiz.com/python-programming/list"
     }
   },
   "3": {
