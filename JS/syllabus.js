@@ -1,3 +1,4 @@
+var syllabus = document.getElementById('#nav');
 
 var card = document.querySelectorAll('.card')
 var http = new XMLHttpRequest()
@@ -7,15 +8,12 @@ http.onload = function () {
   if (this.readyState == 4 && this.status == 200) {
     var data = JSON.parse(this.responseText)
     var i = 0;
+    // syllabus.append(addSyllabus())
+    console.log(data)
     Object.keys(data, i).map(function (key) {
-      console.log(data[i])
-      console.log(key)
-      console.log(data[i].name)
       addCard(data[i])
       i++;
     })
-    console.log(data.length)
-    // card.forEach(addCard(data))
   }
 }
 
@@ -41,4 +39,12 @@ function addCard(data) {
   </div>
   `
   document.querySelector('.body').appendChild(card)
+}
+
+function addSyllabus() {
+  var syllabus = `<div class="btn">
+  <a href="../ECE Sem 6 Syllabus.pdf"> Syllabus Copy</a>
+</div>`
+  return syllabus;
+  // document.querySelector('.body').appendChild(syllabus)
 }
