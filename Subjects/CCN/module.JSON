@@ -14,14 +14,16 @@
       "1": "./html/Module 2 1st.html",
       "2": "./html/Module 2 2nd.html",
       "3": "./html/Module 2 PPT.html",
-      "4": "./html/Module 2.html"
+      "4": "./html/Module 2.html",
+      "5": "./html/Module 2 Complete.html"
     }
   },
   "2": {
     "name": "Network Layer",
 
     "links": {
-      "1": "./html/CIE-2 Complete.html"
+      "1": "./html/CIE-2 Complete.html",
+      "2": "./html/Module 3.html"
     }
   },
   "3": {
