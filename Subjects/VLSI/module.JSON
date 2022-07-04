@@ -27,14 +27,19 @@
     "name": "Advanced CMOS Logic Structures",
 
     "links": {
-      "1": "Check Back Later"
+      "1": "./html/Module 4.html",
+      "2": "./html/Module 4.1.html",
+      "3": "./html/Module 4.2.html"
     }
   },
   "4": {
     "name": "MOS Amplifier, Differential Amplifier & Current Mirrors",
 
     "links": {
-      "1": "Check Back Later"
+      "1": "./html/Module 5.html",
+      "2": "./html/Module 5.1.html",
+      "3": "./html/Module 5.2.html",
+      "4": "./html/Differential Amplifier.html"
     }
   },
   "5": {
