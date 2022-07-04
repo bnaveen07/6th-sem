@@ -27,21 +27,24 @@
     "name": "Depreciation",
 
     "links": {
-      "1": "Check Back Later"
+      "1": "./html/Depreciation PPT.html",
+      "2": "./html/Module 4.html",
+      "3": "./html/Module-4.html"
     }
   },
   "4": {
     "name": "Replacement Analysis",
 
     "links": {
-      "1": "Check Back Later"
+      "1": "./html/Module 5.html",
+      "2": "./html/Module-5.html"
     }
   },
   "5": {
     "name": "Text Book & Lab Manual",
 
     "links": {
-      "1": "Check Back Later"
+      "1": "./pdf/Question Paper.pdf"
     }
   }
 }
