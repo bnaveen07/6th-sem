@@ -28,14 +28,17 @@
     "name": "Arrays & Linked Structures",
 
     "links": {
-      "1": "Check Back Later"
+      "1": "./html/Module 3.html",
+      "2": "./pdf/Module-3.html"
     }
   },
   "4": {
     "name": "Files & Regular Expressions",
 
     "links": {
-      "1": "Check Back Later"
+      "1": "./html/Module 5.html",
+      "2": "./pdf/Module-5.1.html",
+      "3": "./pdf/Module-5.2.html"
     }
   },
   "5": {
