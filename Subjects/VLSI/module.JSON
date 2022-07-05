@@ -46,7 +46,8 @@
     "name": "Text Book & Lab Manual",
 
     "links": {
-      "1": "./html/Lab Manual.html"
+      "1": "./html/Lab Manual.html",
+      "2": "./html/VLSI CIE3 QP 2021.html"
     }
   }
 }
