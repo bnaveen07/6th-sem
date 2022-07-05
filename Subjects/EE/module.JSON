@@ -24,12 +24,13 @@
     }
   },
   "3": {
-    "name": "Depreciation",
+    "name": "Depreciation and Break Even Analysis",
 
     "links": {
       "1": "./html/Depreciation PPT.html",
       "2": "./html/Module 4.html",
-      "3": "./html/Module-4.html"
+      "3": "./html/Module-4.html",
+      "4": "./html/Depreciation and BEA.html"
     }
   },
   "4": {
@@ -37,7 +38,9 @@
 
     "links": {
       "1": "./html/Module 5.html",
-      "2": "./html/Module-5.html"
+      "2": "./html/Module-5.html",
+      "3": "./html/Replacement analysis.html",
+      "4": "./html/Costing.html"
     }
   },
   "5": {
