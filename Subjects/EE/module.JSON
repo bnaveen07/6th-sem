@@ -48,7 +48,8 @@
     "name": "Text Book & Lab Manual",
 
     "links": {
-      "1": "./pdf/Question Paper.pdf"
+      "1": "./html/Question Bank.html",
+      "2": "./html/Text Book.html"
     }
   }
 }
