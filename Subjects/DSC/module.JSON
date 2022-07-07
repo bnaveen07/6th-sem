@@ -26,14 +26,15 @@
 
     "links": {
       "1": "./html/Linked List.html",
-      "2": "./html/Module 4 & 5.html"
+      "2": "./html/Module 4.html",
+      "3": "./html/Module 4 & 5.html"
     }
   },
   "4": {
     "name": "Module 5",
 
     "links": {
-      "1": "Check Back Later"
+      "1": "./html/Module 5.html"
     }
   },
   "5": {
